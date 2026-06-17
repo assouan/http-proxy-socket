@@ -1,0 +1,23 @@
+{
+    "name": "assouan/http-proxy-socket",
+    "description": "HTTP and HTTPS proxy socket transports for the A PHP libraries.",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.5",
+        "ext-json": "*",
+        "assouan/http-message": "^0.1",
+        "assouan/promise": "^0.1",
+        "assouan/socket": "^0.1",
+        "assouan/timer": "^0.1"
+    },
+    "suggest": {
+        "ext-curl": "Required when using ProxyConfig::to_curlopt().",
+        "ext-openssl": "Required for HTTPS proxy socket support."
+    },
+    "autoload": {
+        "psr-4": {
+            "A\\": "src/A/"
+        }
+    }
+}
