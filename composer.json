@@ -7,6 +7,7 @@
         "php": ">=8.5",
         "ext-json": "*",
         "assouan/http-message": "^0.1",
+        "assouan/http-request": "^0.1",
         "assouan/promise": "^0.1",
         "assouan/socket": "^0.1",
         "assouan/timer": "^0.1"
@@ -17,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "A\\": "src/A/"
+            "A\\Proxy\\": "src/A/Proxy/"
         }
     }
 }
