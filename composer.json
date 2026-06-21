@@ -19,5 +19,10 @@
         "psr-4": {
             "A\\Proxy\\": "src/A/Proxy/"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
     }
 }
